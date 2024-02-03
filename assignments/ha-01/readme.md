@@ -14,7 +14,7 @@ on the `Ed Discussion` forum.
 > You are not allowed to use built-in functions that may offer trivial
 > one-shot solutions.
 
-## `Question 1 ( pts)`
+## `Question 1 (15 pts)`
 Write a function named `q1` with the specification below:
 ```
 Input:   an integer value n >= 1
@@ -35,7 +35,7 @@ The function returns an ndarray with the following pattern:
  [-50 -50 -50 -50  10]]
 ```
 
-## `Question 2 ( pts)`
+## `Question 2 (15 pts)`
 Write a function named `q2` with the specification below:
 ```
 Input:   an integer value n >= 1
@@ -56,7 +56,7 @@ The function returns an ndarray with the following pattern:
  [4 5 6 7 8]]
 ```
 
-## `Question 3 ( pts)`
+## `Question 3 (15 pts)`
 Write a function named `q3` with the specification below:
 ```
 Input:   an integer value n >= 1
@@ -93,7 +93,7 @@ The function returns an ndarray with the following pattern:
   [30 30 30 30]]]
 ```
 
-## `Question 4 ( pts)`
+## `Question 4 (15 pts)`
 Write a function named `q4` with the specification below:
 ```
 Input:   an ndarray of shape at least 1d and dtype=float
@@ -124,7 +124,7 @@ all row-vectors in the innermost 2d ndarrays is 1.  For
    [0.09566265 0.99541381]]]]
 ```
 
-## `Question 5 ( pts)`
+## `Question 5 (10 pts)`
 Write a function named `q5` with the specification below:
 ```
 Input:   an ndarray of shape at least 1d and dtype=int
@@ -160,7 +160,7 @@ The function returns the sum as a scalar value.
 112
 ```
 
-## `Question 6 ( pts)`
+## `Question 6 (15 pts)`
 Write a function named `q6` with the specification below:
 ```
 Input:   an integer value n >= 1
@@ -184,7 +184,7 @@ The function returns an ndarray with the following pattern:
  [  1   5  25 125 625]]
 ```
 
-## `Question 7 ( pts)`
+## `Question 7 (15 pts)`
 Write a function named `q7` with the specification below:
 ```
 Input:   an ndarray of shape at least 2d (...,m,n) and dtype=float
