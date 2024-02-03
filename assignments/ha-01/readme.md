@@ -9,7 +9,7 @@ Feel free to drop by our office hours or post your questions directly
 on the `Ed Discussion` forum.
 
 > [!IMPORTANT]
-> For all the questions in this assignment, **no loops are allowed**.  Seek
+> For all the questions on this assignment, **no loops are allowed**.  Seek
 > vectorized and broadcasting operations to achieve the desired outcomes.
 > You are not allowed to use built-in functions that may offer trivial
 > one-shot solutions.
