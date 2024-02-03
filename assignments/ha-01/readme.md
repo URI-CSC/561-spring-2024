@@ -9,7 +9,7 @@ Feel free to drop by our office hours or post your questions directly
 on the `Ed Discussion` forum.
 
 > [!IMPORTANT]
-> For all the questions in this assignment, no loops are allowed.  Seek
+> For all the questions in this assignment, **no loops are allowed**.  Seek
 > vectorized and broadcasting operations to achieve the desired outcomes.
 > You are not allowed to use built-in functions that may offer trivial
 > one-shot solutions.
@@ -18,7 +18,7 @@ on the `Ed Discussion` forum.
 Write a function named `q1` with the specification below:
 ```
 Input:   an integer value n >= 1
-Output:  a 2D ndarray of shape n x n
+Output:  an ndarray of shape=(n,n) and dtype=int
 ```
 The returned array is a matrix with the following pattern:
 ```python
@@ -35,15 +35,37 @@ The returned array is a matrix with the following pattern:
  [-50 -50 -50 -50  10]]
 ```
 
+## `Question 2 ( pts)`
+Write a function named `q2` with the specification below:
+```
+Input:   an integer value n >= 1
+Output:  an ndarray of shape=(n,n) and dtype=int
+```
+The returned array is a matrix with the following pattern:
+```python
+# n = 3
+[[0 1 2]
+ [1 2 3]
+ [2 3 4]]
+
+# n = 5
+[[0 1 2 3 4]
+ [1 2 3 4 5]
+ [2 3 4 5 6]
+ [3 4 5 6 7]
+ [4 5 6 7 8]]
+```
+
 ## Submission and Grading
 This assignment uses an autograder.  For each of the questions you either 
 pass the test cases (full points) or not (zero points).  To ensure 
 compatibility with the autograder, your program must follow the exact 
 specifications provided above, specifically, using the same function names 
-and follow input/output requirements.
+and strictly follow all input/output requirements.
 
-You will submit a single file named `functions.py` with all of your functions
-via `Gradescope`.
+You will submit a single file named `functions.py` containing all of your 
+functions via `Gradescope`.  Multiple submissions are allowed with a 
+limit of XXX.
 
 > [!CAUTION]
 > Remember, academic integrity is of utmost importance.  Any attempts at cheating
