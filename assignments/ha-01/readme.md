@@ -94,8 +94,6 @@ The function returns an ndarray with the following pattern:
 ```
 
 ## `Question 4 ( pts)`
-    # where the magnitude of all row-vectors
-    # in the innermost 2d ndarray is 1
 Write a function named `q4` with the specification below:
 ```
 Input:   an ndarray of shape at least 1d and dtype=float
@@ -124,6 +122,66 @@ all row-vectors in the innermost 2d ndarray is 1.  For
    [0.98685332 0.16161844]
    [0.75085082 0.66047183]
    [0.09566265 0.99541381]]]]
+```
+
+## `Question 5 ( pts)`
+Write a function named `q5` with the specification below:
+```
+Input:   an ndarray of shape at least 1d and dtype=int
+Output:  sum of all elements multiples of 7 or 11
+```
+The function returns the sum as a scalar value.
+```python
+# input
+[14  5  4  3  2 15]
+
+# output
+34
+
+# input
+[[[[ 7  2 13]
+   [ 5  3  7]
+   [ 1  3  9]]
+
+  [[ 2 10 11]
+   [ 9  1 12]
+   [13  3  7]]]
+
+
+ [[[ 1  5  7]
+   [13  4  7]
+   [ 8 14  5]]
+
+  [[14 14  3]
+   [ 8 13 11]
+   [10  1  9]]]]
+
+# output
+112
+```
+
+## `Question 6 ( pts)`
+Write a function named `q6` with the specification below:
+```
+Input:   an integer value n >= 1
+Output:  an ndarray of shape=(n,n) and dtype=int
+```
+The function returns an ndarray with the following pattern:
+```python
+# 1
+[[1]]
+
+# 3
+[[1 1 1]
+ [1 2 4]
+ [1 3 9]]
+
+# 5
+[[  1   1   1   1   1]
+ [  1   2   4   8  16]
+ [  1   3   9  27  81]
+ [  1   4  16  64 256]
+ [  1   5  25 125 625]]
 ```
 
 ## Submission and Grading
