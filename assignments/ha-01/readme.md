@@ -100,7 +100,7 @@ Input:   an ndarray of shape at least 1d and dtype=float
 Output:  an ndarray of the same shape and dtype=float
 ```
 The function returns an ndarray where the magnitude of
-all row-vectors in the innermost 2d ndarray is 1.  For
+all row-vectors in the innermost 2d ndarrays is 1.  For
 1d inputs, the magnitude of the array should become 1.
 ```python
 # input shape (4,) => magnitude of the output vector is 1
@@ -182,6 +182,40 @@ The function returns an ndarray with the following pattern:
  [  1   3   9  27  81]
  [  1   4  16  64 256]
  [  1   5  25 125 625]]
+```
+
+## `Question 7 ( pts)`
+Write a function named `q7` with the specification below:
+```
+Input:   an ndarray of shape at least 2d (...,m,n) and dtype=float
+         an scalar value k
+Output:  a padded ndarray of shape (...,m+2k,n+2k) and dtype=float
+```
+The function returns an ndarray where zeros have been added
+to the four sides of all innermost 2d arrays in the input ndarray.
+Input parameter k controls the amount of padding.
+```python
+# input shape (2,2) and k=1
+[[0.         0.         0.         0.        ]
+ [0.         0.90871286 0.99775115 0.        ]
+ [0.         0.16949961 0.86268474 0.        ]
+ [0.         0.         0.         0.        ]]
+
+# input shape (2,1,2,2) and k=2
+[[[[0.         0.         0.         0.         0.         0.        ]
+   [0.         0.         0.         0.         0.         0.        ]
+   [0.         0.         0.69188511 0.21990861 0.         0.        ]
+   [0.         0.         0.23399214 0.99926364 0.         0.        ]
+   [0.         0.         0.         0.         0.         0.        ]
+   [0.         0.         0.         0.         0.         0.        ]]]
+
+
+ [[[0.         0.         0.         0.         0.         0.        ]
+   [0.         0.         0.         0.         0.         0.        ]
+   [0.         0.         0.94755712 0.83227846 0.         0.        ]
+   [0.         0.         0.60942744 0.27105814 0.         0.        ]
+   [0.         0.         0.         0.         0.         0.        ]
+   [0.         0.         0.         0.         0.         0.        ]]]]
 ```
 
 ## Submission and Grading
