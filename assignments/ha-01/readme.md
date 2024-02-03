@@ -11,8 +11,8 @@ on the `Ed Discussion` forum.
 > [!IMPORTANT]
 > For all the questions on this assignment, **no loops are allowed**.  Seek
 > vectorized and broadcasting operations to achieve the desired outcomes.
-> You are not allowed to use built-in functions that may offer trivial
-> one-shot solutions.
+> Likewise, you are not allowed to use built-in functions that may
+> offer trivial one-shot solutions.
 
 ## `Question 1 (15 pts)`
 Write a function named `q1` with the specification below:
