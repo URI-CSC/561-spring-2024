@@ -222,8 +222,8 @@ Input parameter k controls the amount of padding.
 This assignment uses an autograder.  For each of the questions you either 
 pass the test cases (full points) or not (zero points).  To ensure 
 compatibility with the autograder, your program must follow the exact 
-specifications provided above, specifically, using the same function names 
-and strictly follow all input/output requirements.
+specifications provided above, in particular, using the same function names 
+and strictly following all input/output requirements.
 
 You will submit a single file named `functions.py` containing all of your 
 functions via `Gradescope`.  Multiple submissions are allowed with a 
