@@ -1,4 +1,4 @@
-# Homework Assignment 1 (due Feb 9th)
+# Homework Assignment 1 (due Feb 11th @ 11:59pm)
 
 The goal of this assignment is to explore the world of tensors and 
 broadcasting using the [numpy](https://numpy.org/devdocs/) library.  
