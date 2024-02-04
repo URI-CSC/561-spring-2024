@@ -188,7 +188,7 @@ The function returns an ndarray with the following pattern:
 Write a function named `q7` with the specification below:
 ```
 Input:   an ndarray of shape at least 2d (...,m,n) and dtype=float
-         an scalar value k
+         an scalar value k >= 1
 Output:  a padded ndarray of shape (...,m+2k,n+2k) and dtype=float
 ```
 The function returns an ndarray where zeros have been added
