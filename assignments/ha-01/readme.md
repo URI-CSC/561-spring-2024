@@ -226,8 +226,7 @@ specifications provided above, in particular, using the same function names
 and strictly following all input/output requirements.
 
 You will submit a single file named `functions.py` containing all of your 
-functions via `Gradescope`.  Multiple submissions are allowed with a 
-limit of XXX.
+functions via `Gradescope`.  Multiple submissions are allowed.
 
 > [!CAUTION]
 > Remember, academic integrity is of utmost importance.  Any attempts at cheating
