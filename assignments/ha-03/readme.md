@@ -37,9 +37,9 @@ The size of each image is roughly `300x200` pixels.
 
 For this assignment you must download the following files:
 
-- [training data](https://homepage.cs.uri.edu/~malvarez/stationary/caltech/train-data.zip)
+- [training data](https://homepage.cs.uri.edu/~malvarez/stationary/caltech/train-files.zip)
 - [training data labels](https://homepage.cs.uri.edu/~malvarez/stationary/caltech/train-labels.txt)
-- [test data](https://homepage.cs.uri.edu/~malvarez/stationary/caltech/test-data.zip)
+- [test data](https://homepage.cs.uri.edu/~malvarez/stationary/caltech/test-files.zip)
 
 > [!NOTE]
 > The labels for the training data appear in the same order as the
@@ -93,11 +93,11 @@ via *Gradescope*:
 - your predictions for the test set in `predictions.pt`
 - a PDF named `report.pdf` containing 4 sections, each with a clear 
 description of how you implemented the following tasks:
-    - transfer learning `(15 pt)`
-    - data augmentation `(15 pt)`
-    - hyperparameter tuning / model selection `(30 pt)`
-    - training of the final model `(20 pt)`
-- every source file you developed (only `.py` and `.ipynb` files are allowed) (20 pt)
+    - transfer learning **(15 pt)**
+    - data augmentation **(15 pt)**
+    - hyperparameter tuning / model selection **(30 pt)**
+    - training of the final model **(20 pt)**
+- every source file you developed (only `.py` and `.ipynb` files are allowed) **(20 pt)**
 
 > [!CAUTION]
 > Remember, academic integrity is of utmost importance.  Any attempts at cheating
